@@ -24,7 +24,7 @@ function App() {
     setCopied(false);
 
     try {
-      const response = await fetch("http://localhost:5000/generate", {
+      const response = await fetch("https://anna-ai-tox2.onrender.com/generate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
